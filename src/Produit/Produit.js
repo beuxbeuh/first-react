@@ -7,9 +7,16 @@ const produits = [
 ]
 
 export default function Produit() {
+    const list_produits = produits.map(produit => (
+    <li key={produit.id}>
+        {produit.name}
+        </li>
+    ));
     return (
         <div className='produit'>
-            
+            <ul>
+                {list_produits}
+            </ul>
         </div>
     )
 }
