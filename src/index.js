@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Emoji />
-    <Message />    
+    <Message messagePasse="Hello la React sphere!" prenom="Floch"/>    
     <App />
     <Footer />
   </React.StrictMode>
