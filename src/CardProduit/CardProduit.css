@@ -1,0 +1,20 @@
+.card {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    width: 20%;
+    border-bottom: 2px solid #f00;
+    background-color: #ff5656;
+}
+
+img {
+    width: 20%;
+    max-height: 40vh;
+}
