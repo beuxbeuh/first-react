@@ -42,8 +42,8 @@ export default function Produit() {
     ))
     return (
       <>
-      <h1>Card Produit</h1>
-      <div class='cardProduit'>
+      <div className='cardProduit'>
+        <h1>Card Produit</h1>
         {listeProduits}
       </div>
       </>

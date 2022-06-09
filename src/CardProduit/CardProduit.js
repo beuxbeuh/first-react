@@ -4,9 +4,9 @@ import './CardProduit.css';
 export default function CardProduit(props) {
     return ( 
         <>
-            <div class='card'>
+            {/* <div className='card'> */}
                 <figure>
-                    <img src={props.image} alt=''></img>
+                    <img src={props.image} alt='' className='img'></img>
                     <figcaption>
                         <h3>{props.titre}</h3>
                         <p>{props.description}</p>
@@ -14,7 +14,7 @@ export default function CardProduit(props) {
                         <h5>{props.avis}</h5>
                     </figcaption>
                 </figure>
-            </div>
+            {/* </div> */}
         </>
     )
 }
