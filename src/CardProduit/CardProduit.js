@@ -5,9 +5,8 @@ export default function CardProduit(props) {
     return ( 
         <>
             <div class='card'>
-                <h1>Card Produit</h1>
-                <img src={props.image} alt=''></img>
                 <figure>
+                    <img src={props.image} alt=''></img>
                     <figcaption>
                         <h3>{props.titre}</h3>
                         <p>{props.description}</p>

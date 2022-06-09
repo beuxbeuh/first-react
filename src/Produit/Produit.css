@@ -2,3 +2,9 @@
     height: 200px;
     background-color: red;
 }
+
+.cardProduit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

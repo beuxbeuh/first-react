@@ -40,5 +40,12 @@ export default function Produit() {
             avis={produit.avis}
             />
     ))
-    return listeProduits;
+    return (
+      <>
+      <h1>Card Produit</h1>
+      <div class='cardProduit'>
+        {listeProduits}
+      </div>
+      </>
+    )
 }
